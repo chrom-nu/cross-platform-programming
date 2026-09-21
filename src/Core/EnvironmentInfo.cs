@@ -50,3 +50,4 @@ public static class EnvironmentInfo
 #endif
     }
 }
+

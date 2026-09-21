@@ -6,6 +6,7 @@
 Сутності: `Book` (видання), `BookCopy` (примірник), `Reader` (читач), `Loan` (видача).
 Призначення: облік видач примірників книг читачам і повернень.
 
+## Запуск
 ## Запуск та публікація
 
 ```bash
@@ -24,10 +25,12 @@ dotnet publish src/Cli -c Release -r win-x64 --self-contained true -o publish/wi
 
 ## Структура
 
+```
 ```text
 CrossApp/
 ├── .gitignore
 ├── global.json
+├── CrossApp.slnx
 ├── CrossApp.sln
 ├── README.md
 └── src/
@@ -46,8 +49,10 @@ CrossApp/
 
 ## Середовище
 
+- .NET SDK 10.0.400
 - .NET SDK 10.0
 - Windows 10 x64 (RID: win-x64)
+- Visual Studio Code + C# Dev Kit
 
 ### Порівняння режимів публікації
 
